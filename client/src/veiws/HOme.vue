@@ -20,7 +20,7 @@
     </div>
     <div data-aos="zoom-out-up"
     class="mb-20" >
-  <p class="bg-blue-400 text-center mb-10  mt-10 w-32 rounded-r-lg  text-2xl text-white p-2">ooooour skills</p>
+  <p class="bg-blue-400 text-center mb-10  mt-10 w-32 rounded-r-lg  text-2xl text-white p-2">our skills</p>
  <div  v-for="item in values " :key="item.name">
    
     <span class="ml-4 lg:ml-12 text-xl text-blue-500">{{item.name}}</span>
