@@ -1,6 +1,6 @@
 <template>
      <div class="w-64  relative">
-    <img src="src/assets/images/bg.jpg" class="w-full h-48" alt="">
+    <img src="/src/assets/images/bg.jpg" class="w-full h-48" alt="">
     <div class="w-full bgwork2 flex justify-center  items-center h-48 absolute top-0 left-0 " >  
       <div class="absolute  iconspage top-1/2 left-1/3">
       <a href="#jbdv">

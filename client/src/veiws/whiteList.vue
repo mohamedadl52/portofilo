@@ -23,7 +23,7 @@
         >
           <div class="flex justify-between w-full px-10 shadow-xl py-2">
             <div class="text-lg text-seconcolor font-semibold">
-              <img width="100px" src="src/assets/images/bg.jpg" alt="" />
+              <img width="100px" src="/src/assets/images/bg.jpg" alt="" />
             </div>
             <div class="text-sm ml-2 font-semibold">
               <p>Italian chair</p>
@@ -49,7 +49,7 @@
           </div>
           <div class="flex justify-between w-full px-10 shadow-xl py-2">
             <div class="text-lg text-seconcolor font-semibold">
-              <img width="100px" src="src/assets/images/bg.jpg" alt="" />
+              <img width="100px" src="/src/assets/images/bg.jpg" alt="" />
             </div>
             <div class="text-sm ml-2 font-semibold">
               <p>Italian chair</p>
@@ -75,7 +75,7 @@
           </div>
           <div class="flex justify-between w-full px-10 shadow-xl py-2">
             <div class="text-lg text-seconcolor font-semibold">
-              <img width="100px" src="src/assets/images/bg.jpg" alt="" />
+              <img width="100px" src="/src/assets/images/bg.jpg" alt="" />
             </div>
             <div class="text-sm ml-2 font-semibold">
               <p>Italian chair</p>
