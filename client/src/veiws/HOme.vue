@@ -1,6 +1,6 @@
 <template>
    <div class="overflow-hidden">
-    <div class="background overflow-hidden">
+    <div style="background-image: url('../src/assets/images/key7.jpg');" class="background overflow-hidden">
        <img class="w-full lg:hidden" height="20px" src="../assets//images//key7.jpg" alt="">
        
        
@@ -75,7 +75,6 @@ export default {
     animation: bgfly 2s infinite;
 }
 .background {
-  background-image: url("../src/assets/images/key7.jpg");
   background-size: cover;
   width: 100%;
   height: 85vh;
