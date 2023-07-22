@@ -2,8 +2,6 @@
    <div class="overflow-hidden">
     <div :style="{ backgroundImage: 'url(' + './src/assets//images//2.png' + ')' }" class="background overflow-hidden">
        <img class="w-full lg:hidden" height="20px" src="../assets//images//key7.jpg" alt="">
-       <img class="w-full lg:hidden" height="20px" src="../assets//images//key7.jpg" alt="">
-       <img class="w-full lg:hidden" height="20px" src="../assets//images//key7.jpg" alt="">
        
        
        <div  class="flex flex-col container justify-between lg:flex-row">
