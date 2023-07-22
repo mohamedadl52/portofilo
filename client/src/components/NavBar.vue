@@ -15,7 +15,7 @@
 <!--  header end -->
 
    <!-- nav bar pc start -->
-<nav style="background: linear-gradient(90deg , blue , white);"  class=" z-20 hidden bg-seconcolor w-64 absolute lg:relative lg:w-full rounded-r-lg lg:rounded-none lg:block ">  
+<nav style="background: linear-gradient(90deg , blue , white);"  class=" z-20 hidden bg-seconcolor w-64  lg:relative lg:w-full rounded-r-lg lg:rounded-none  lg:block ">  
   <div class="container w-full lg:flex py-2 lg:py-0 justify-center  mx-auto">
     
    
