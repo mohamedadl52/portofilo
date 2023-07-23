@@ -1,7 +1,7 @@
 <template >
    <div  class="overflow-hidden">
     <div :style="{ backgroundImage: 'url(' + image + ')' }" class="background overflow-hidden">
-       <img class="w-full lg:hidden" height="20px" src="../assets//images//key7.jpg" alt="">
+       <img class="w-full lg:hidden " height="20px" src="../assets//images//key7.jpg" alt="">
        
        
        <div class="flex flex-col container justify-between lg:flex-row">
@@ -36,7 +36,7 @@
       <div><span class="dot"></span></div>
     </div>
     <div data-aos="zoom-out-up" style="background-color: rgba(0, 0, 0 ,0.8);"
-    class=" pt-10 pb-10 xl:pb-24"  >
+    class=" pt-10 pb-10 xl:pb-24 overflow-hidden"  >
   <p class="bg-blue-500 text-center mb-10  mt-0  w-32 rounded-r-lg  text-2xl text-white p-2">our skills</p>
  <div  v-for="item in values " :key="item.name">
    
@@ -45,7 +45,7 @@
     <div class="h-4   w-11/12 lg:w-1/2 bg-neutral-200 lg:ml-10 dark:bg-neutral-600">
   <div class="h-4 bg-green-600 bg-primary" :style="{width: item.value + '%' , background : item.color}">  </div>
   </div>
-  <p class="text-red-500 mx-0 leading-4 font-bold text-xl ml-2" :style="{color  :  item.color}">    {{ item.value }}%
+  <p class=" mx-0 leading-4 font-bold text-xl ml-2" :style="{color  :  item.color}">    {{ item.value }}%
 </p>
   </div>
   <br>
@@ -65,14 +65,27 @@ export default {
         return {
             image : image , 
         values : [
-            {name  :  'html' , value  :   90 , color  :   '#7486748'} ,
+            {name  :  'html' , value  :   90 , color  :   '#730'} ,
             {name  :  'css' , value  :   70 , color  :   '#748'} ,
             {name  :  'js' , value  :   80 , color  :   '#a48'} ,
             {name  :  'tailwind css' , value  :   70 , color  :   '#c48'} ,
             {name  :  'bootstrap' , value  :   90 , color  :   '#774'} ,
-            {name  :  'nodejs' , value  :   80 , color  :   '#748'} ,
-            {name  :  'python' , value  :   60 , color  :   '#a54'} ,
-            {name  :  'c++' , value  :   50 , color  :   '#a88'} 
+            {name  :  'vuetfiy' , value  :   90 , color  :   '#544'} ,
+            {name  :  'vue js' , value  :   90 , color  :   '#974'} ,
+            {name  :  'nuxt js' , value  :   90 , color  :   '#374'} ,
+            {name  :  'react js' , value  :   90 , color  :   '#774'} ,
+            {name  :  'next js' , value  :   90 , color  :   '#a74'} ,
+            {name  :  'nodejs' , value  :   80 , color  :   '#448'} ,
+            {name  :  'Express js' , value  :   80 , color  :   '#948'} ,
+            {name  :  'soket IO' , value  :   80 , color  :   '#b28'} ,
+            {name  :  'mongoDB' , value  :   80 , color  :   '#448'} ,
+            {name  :  'my sql DB' , value  :   80 , color  :   '#c48'} ,
+            {name  :  'PHP' , value  :   60 , color  :   '#854'} ,
+            {name  :  'laraval' , value  :   60 , color  :   '#e54'} ,
+            {name  :  'python' , value  :   60 , color  :   '#005154'} ,
+            {name  :  'flask' , value  :   60 , color  :   '#b65554'} ,
+            {name  :  'django' , value  :   60 , color  :   '#a54'} ,
+            {name  :  'c++' , value  :   50 , color  :   '#dd8'} 
 
 
             
@@ -119,7 +132,7 @@ export default {
   padding: 0;
 }
 .wrapper {
-  height: 800px;
+  height: 1736px;
   width: 100%;
   background: linear-gradient(180deg, #0e8385, 5%, #119dff, 50%, #030423);
   position: absolute;
