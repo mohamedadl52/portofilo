@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Suna </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Regna - v4.9.1
+  * Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div id="logo">
+        <p class="fs-1 text-white" style="font-family: 'Rubik Vinyl', cursive;">SUNA</p>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="index.html">Regna</a></h1>-->
+      </div>
+      
+      <nav id="navbar" class="navbar">
+        <br> <br> <br>
+        <div id="liveAlertPlaceholder" class="mt-5"></div>
+        
+        <ul>
+        <% if(myid) { %>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
+            <li><a class="nav-link " href="/profile">MyProfile</a></li>
+            <li><a class="nav-link " href="/#about">online friends</a></li>
+            <li><a class="nav-link " href="/#services">groups</a></li>
+        
+          <li class="nav-item dropdown no-arrow">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <%= myname %>
+                  <img width="50px" class="img-profile  rounded-circle"
+                  src="/assets/img/<%= myimage %>">
+                </a>
+
+                <!-- Dropdown - User Information -->
+                <div style="z-index: 5;" class="text-center dropdown-menu dropdown-menu-right text-muted shadow animated--grow-in"
+                aria-labelledby="userDropdown">
+                <a class="dropdown-item text-center mx-auto " href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  
+                  <a class="text-black pe-auto" style="cursor: pointer; margin-bottom: 5px;" href="/profile" >Profile</a>
+                </a>
+                
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  <a class="text-black " data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer; margin-bottom: 5px;" > Settings</a>
+                  
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  <a class="text-black " style="cursor: pointer" >  Activity Log </a>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-center   " href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  <span class="text-black " > <a class="text-black " href="/user/logout">Logout</a> </span>
+                </a>
+              </div>
+            </li>
+            <% } else { %>
+            <li><a class="nav-link" href="/login">login</a></li>
+            <li><a class="nav-link " href="/sign">signUp</a></li>
+                  <% } %>              
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+  <% if(myid){ %>
+  <input type="text" hidden id="myId" value="<%= myid %>">
+  <input type="text" hidden id="myName" value="<%= myname %>">
+  <input type="text" hidden id="myImage" value="<%= myimage %>">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">profile</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <a  href="#" >
+            <img width="80px" class="img-profile  rounded-circle"
+            src="/assets/img/<%= myimage %>">
+          </a>
+          <span>choose new image</span>
+          <input type="text" class="form-control my-2" placeholder="<%= myname %>">
+          <input type="text" class="form-control my-2" placeholder="<%= myemail %>">
+          <input type="text" class="form-control" placeholder="new password" >
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% } %>
