@@ -1,65 +1,73 @@
 <template >
-   <div  class="overflow-hidden">
-    <div :style="{ backgroundImage: 'url(' + image + ')' }" class="background overflow-hidden">
-       <img class="w-full lg:hidden " height="20px" src="../assets//images//key7.jpg" alt="">
-       
-       
-       <div class="flex flex-col container justify-between lg:flex-row">
-           <div class="mx-2 ml-5 lg:mt-64">
-               <h1 style="color:rgb(19, 255, 255)" class="text-white lg:text-3xl  uppercase text-2xl  text-bold ">We are Web DEvelpoer</h1>
-               <h1 style="color:rgb(255, 255, 255)" class="text-white   uppercase text-lg  text-bold ">make your jobs with hight quality</h1>
-               <button style="border: 1px solid blueviolet; border-radius: 10px;" class="text-white   uppercase text-lg p-2 mt-4 w-64  text-bold">
-                Hair us
-               </button>
-            </div>
-            <div  class="lg:w-1/2">
-                <img  class="imfly" height="20px" src="../assets//images//2.png" alt="">
-
-            </div>
-        </div>
-    </div>
-    <div  class="wrapper overflow-hidden">
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-    </div>
-    <div data-aos="zoom-out-up" style="background-color: rgba(0, 0, 0 ,0.8);"
-    class=" pt-10 pb-10 xl:pb-24 overflow-hidden"  >
-  <p class="bg-blue-500 text-center mb-10  mt-0  w-32 rounded-r-lg  text-2xl text-white p-2">our skills</p>
- <div  v-for="item in values " :key="item.name">
-   
-    <span class="ml-4 lg:ml-12 text-2xl text-white">{{item.name}}</span>
-  <div class="flex mx-2">
-    <div class="h-4   w-11/12 lg:w-1/2 bg-neutral-200 lg:ml-10 dark:bg-neutral-600">
-  <div class="h-4 bg-green-600 bg-primary" :style="{width: item.value + '%' , background : item.color}">  </div>
-  </div>
-  <p class=" mx-0 leading-4 font-bold text-xl ml-2" :style="{color  :  item.color}">    {{ item.value }}%
-</p>
-  </div>
-  <br>
- </div>
-
-    </div>
+  <div>
+    <NavBar />
+    
+    <div  class="overflow-hidden">
+     <div :style="{ backgroundImage: 'url(' + image + ')' }" class="background pb-5 overflow-hidden">
+        <img class="w-full lg:hidden " height="20px" src="../assets//images//key7.jpg" alt="">
+        
+        
+        <div class="flex flex-col container justify-between lg:flex-row">
+            <div class="mx-2 ml-5 lg:mt-64">
+                <h1 style="color:rgb(19, 255, 255)" class="text-white lg:text-3xl  uppercase text-2xl  text-bold ">We are Web DEvelpoer</h1>
+                <h1 style="color:rgb(255, 255, 255)" class="text-white   uppercase text-lg  text-bold ">make your jobs with hight quality</h1>
+                <button style="border: 1px solid blueviolet; border-radius: 10px;" class="text-white   uppercase text-lg p-2 mt-4 w-64  text-bold">
+                 Hair us
+                </button>
+             </div>
+             <div  class="lg:w-1/2 w-72 ml-10  ">
+                 <img  class="imfly"  src="../assets//images//2.png" alt="">
+ 
+             </div>
+         </div>
+     </div>
+     <div  class="wrapper overflow-hidden">
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+       <div><span class="dot"></span></div>
+     </div>
+     <div data-aos="zoom-out-up" style="background-color: rgba(0, 0, 0 ,0.8);"
+     class=" pt-10 pb-10 xl:pb-24 overflow-hidden"  >
+   <p class="bg-blue-500 text-center mb-10  mt-0  w-32 rounded-r-lg  text-2xl text-white p-2">our skills</p>
+  <div  v-for="item in values " :key="item.name">
+    
+     <span class="ml-4 lg:ml-12 text-2xl text-white">{{item.name}}</span>
+   <div class="flex mx-2">
+     <div class="h-4   w-11/12 lg:w-1/2 bg-neutral-200 lg:ml-10 dark:bg-neutral-600">
+   <div class="h-4 bg-green-600 bg-primary" :style="{width: item.value + '%' , background : item.color}">  </div>
    </div>
+   <p class=" mx-0 leading-4 font-bold text-xl ml-2" :style="{color  :  item.color}">    {{ item.value }}%
+ </p>
+   </div>
+   <br>
+  </div>
+ 
+     </div>
+    </div>
+  </div>
 </template>
 
 <script>
 import AOS from 'aos'
 import { onMounted } from 'vue'
 import image from "../assets/images/key7.jpg" 
+import NavBar from '../components/NavBar.vue'
 export default {
+  components : {
+    NavBar
+  } , 
   
     data(){
         return {
