@@ -3,7 +3,7 @@
 class="w-64 flex justify-around
    items-center  flex-col h-56 ">
     <div>
-      <img :src="image" alt="" />
+      <img :src="img" alt="" />
     </div>
     <div>
       <h1 class="text-seconcolor text-center tex-lg font-black">
@@ -34,8 +34,13 @@ return {
   props: {
     name  :  String , 
     link :  String  , 
-    img  :  String , 
+    img  :  {type :String , default : ''} , 
     href : String
+  } , 
+  computed : {
+   getImage(){
+   return '../src/assets/images/works/yogaa.jpg'
+   }
   }
 }
 </script>
