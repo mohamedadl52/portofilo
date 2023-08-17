@@ -46,7 +46,7 @@
 import { ref } from "vue";
 import proJect from '../components/proJect.vue' ;
 import NavBar from "../components/NavBar.vue";
-import chatApp  from '../src/assets/images/works/chatApp.png'
+import chatApp  from '/src/assets/images/works/chatApp.png'
 
 const works = ref([
   {name  : "all"  , valueFeleter : 'all'   },
