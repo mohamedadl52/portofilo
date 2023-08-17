@@ -3,7 +3,7 @@
 class="w-64 flex justify-around
    items-center  flex-col h-56 ">
     <div>
-      <img :src="img" alt="" />
+      <img :src="image" alt="" />
     </div>
     <div>
       <h1 class="text-seconcolor text-center tex-lg font-black">
@@ -26,6 +26,11 @@ v-if="href"
 
 <script>
 export default {
+  data(){
+return {
+  image: this.img
+}
+  } , 
   props: {
     name  :  String , 
     link :  String  , 
