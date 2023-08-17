@@ -1,7 +1,7 @@
 import {createRouter , createWebHistory} from 'vue-router'
 import Home from '../veiws/HOme.vue'
 import works from '../veiws/worKs.vue'
-import about from '../veiws/aboUt.vue'
+import about from '../veiws/abOut.vue'
 import contact from '../veiws/contactUS.vue'
 
 
