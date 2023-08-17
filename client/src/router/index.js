@@ -1,12 +1,8 @@
 import {createRouter , createWebHistory} from 'vue-router'
 import Home from '../veiws/HOme.vue'
 import works from '../veiws/worKs.vue'
-<<<<<<< HEAD
 import about from '../veiws/aboUt.vue'
 import contact from '../veiws/contactUS.vue'
-=======
-import about from '../veiws/abOut.vue'
->>>>>>> 819f6d4d1f95e909e569611b1cbf802067c1eb16
 
 
 
