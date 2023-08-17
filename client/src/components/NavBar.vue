@@ -24,7 +24,7 @@
             <li class="bg-maincolor font-bold my-1 py-2 px-1  rounded-r-lg lg:my-0 lg:w-auto lg:bg-transparent " ><router-link to="/">من نحن</router-link></li>
             <li class="bg-maincolor font-bold my-1 w-full rounded-r-lg lg:my-2 lg:w-auto lg:bg-transparent"><router-link to="/about"> خدماتنا</router-link></li>
             <li class="bg-maincolor font-bold my-1 w-full rounded-r-lg lg:my-2 lg:w-auto lg:bg-transparent"><router-link to="/works">اعمالنا</router-link> </li>
-            <li class="bg-maincolor font-bold my-1 w-full rounded-r-lg lg:my-2 lg:w-auto  lg:bg-transparent" @click="getUserDetails"><router-link to="/contac">تواصل معنا</router-link> </li>
+            <li class="bg-maincolor font-bold my-1 w-full rounded-r-lg lg:my-2 lg:w-auto  lg:bg-transparent" @click="getUserDetails"><router-link to="/contact">تواصل معنا</router-link> </li>
          </ul>
          <div>
           {{ user }}

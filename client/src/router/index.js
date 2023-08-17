@@ -2,6 +2,7 @@ import {createRouter , createWebHistory} from 'vue-router'
 import Home from '../veiws/HOme.vue'
 import works from '../veiws/worKs.vue'
 import about from '../veiws/aboUt.vue'
+import contact from '../veiws/contactUS.vue'
 
 
 
@@ -20,6 +21,7 @@ const router = createRouter({
         {path:'/' , name : 'Home' , component : Home } ,
         {path:'/works' , name : 'works' , component : works},
         {path:'/about' , name : 'about' , component : about}  ,
+        {path:'/contact' , name : 'contact' , component : contact}  ,
      
         {path:'/projects/project1' , name : 'project1' , component : project1} ,
         {path:'/projects/project2' , name : 'project2' , component : project2} ,

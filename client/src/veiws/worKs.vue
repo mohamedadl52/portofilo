@@ -56,19 +56,10 @@ const works = ref([
 
 ]);
 let projects2  =  ref([
-{name : 'Carsoul Desgins' , link :'project1' , img: '/src/assets/images/works/carousel.png'  , type : 'cd' },
-  {name : 'card Desgins' , link :'project2' , img: '/src/assets/images/works/cards.jpg' ,type : 'cd' },
-  {name : 'yoga degin template' , link :'project4' , img: '/src/assets/images/works/yogaa.jpg' , type : 'fdp'  },
-  {name : 'hair style temlate (just for pc)' , link :'project5' , img: '/src/assets/images/works/stylehair.jpg' , type : 'fdp'  },
-  {name : 'background Animations' , link :'project6' , img: '/src/assets/images/works/animations.jpg' , type : 'cd'  },
-  {name : 'template MotiveZone Desgin' , link :'project7' , img: '/src/assets/images/works/mbizone.png' , type : 'fdp'  },
-  {name : 'login pages Desgin' , link :'project3' , img: '/src/assets/images/works/login.png' , type : 'cd'  },
-  {name : 'chat application website' , link :'project2' , img: '/src/assets/images/works/chatApp.png' , type : 'fsp'  },
   {name : 'online store website' , link :'project2' , img: '/src/assets/images/works/chatApp.png' , type : 'fsp'  },
+  {name : 'chat application website' , href: 'https://chatapp-1hom.onrender.com/' , img: '/src/assets/images/works/chatApp.png' , type : 'fsp'  },
   {name : 'blog website' , href: 'https://chatapp-1hom.onrender.com/' , img: '/src/assets/images/works/clanasowa.jpg' , type : 'fsp'  },
   {name : 'portfilo desgin' , link :'project2' , img: '/src/assets/images/2.png' , type : 'fdp'  },
-])
-let projects = ref([
 {name : 'Carsoul Desgins' , link :'project1' , img: '/src/assets/images/works/carousel.png'  , type : 'cd' },
   {name : 'card Desgins' , link :'project2' , img: '/src/assets/images/works/cards.jpg' ,type : 'cd' },
   {name : 'yoga degin template' , link :'project4' , img: '/src/assets/images/works/yogaa.jpg' , type : 'fdp'  },
@@ -76,10 +67,19 @@ let projects = ref([
   {name : 'background Animations' , link :'project6' , img: '/src/assets/images/works/animations.jpg' , type : 'cd'  },
   {name : 'template MotiveZone Desgin' , link :'project7' , img: '/src/assets/images/works/mbizone.png' , type : 'fdp'  },
   {name : 'login pages Desgin' , link :'project3' , img: '/src/assets/images/works/login.png' , type : 'cd'  },
-  {name : 'chat application website' , link :'project2' , img: '/src/assets/images/works/chatApp.png' , type : 'fsp'  },
-  {name : 'online store website' , link :'project2' , img: '/src/assets/images/2.png' , type : 'fsp'  },
-  {name : 'blog website'  , href: 'https://chatapp-1hom.onrender.com/' , img: '/src/assets/images/works/clanasowa.jpg' , type : 'fsp'  },
+])
+let projects = ref([
+  {name : 'online store website' , link :'project2' , img: '/src/assets/images/works/chatApp.png' , type : 'fsp'  },
+  {name : 'chat application website' , href: 'https://chatapp-1hom.onrender.com/' , img: '/src/assets/images/works/chatApp.png' , type : 'fsp'  },
   {name : 'portfilo desgin' , link :'project2' , img: '/src/assets/images/2.png' , type : 'fdp'  },
+  {name : 'Carsoul Desgins' , link :'project1' , img: '/src/assets/images/works/carousel.png'  , type : 'cd' },
+  {name : 'card Desgins' , link :'project2' , img: '/src/assets/images/works/cards.jpg' ,type : 'cd' },
+  {name : 'yoga degin template' , link :'project4' , img: '/src/assets/images/works/yogaa.jpg' , type : 'fdp'  },
+  {name : 'hair style temlate (just for pc)' , link :'project5' , img: '/src/assets/images/works/stylehair.jpg' , type : 'fdp'  },
+  {name : 'background Animations' , link :'project6' , img: '/src/assets/images/works/animations.jpg' , type : 'cd'  },
+  {name : 'template MotiveZone Desgin' , link :'project7' , img: '/src/assets/images/works/mbizone.png' , type : 'fdp'  },
+  {name : 'login pages Desgin' , link :'project3' , img: '/src/assets/images/works/login.png' , type : 'cd'  },
+  {name : 'blog website'  , href: 'https://chatapp-1hom.onrender.com/' , img: '/src/assets/images/works/clanasowa.jpg' , type : 'fsp'  },
 ])
 const fliterToDp =  function(value){
  
