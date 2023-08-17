@@ -8,7 +8,7 @@
         </div>
         <div>
           <ul class="text-right px-4 lg:px-10">
-            <li class="text-blue-200 text-xl justify-end flex fade-item mt-5" v-for="item in requireMent " :key="item">
+            <li v-for="item in requireMent " :key="item" class="text-blue-200 text-xl justify-end flex fade-item mt-5">
               <span>
                  
                 
@@ -47,7 +47,10 @@ export default   {
       ]
 
     }
-  } , methods :{
+  } , 
+  created(){
+    this.faded()
+  }, methods :{
     
     faded(){
       var items = document.getElementsByClassName("fade-item");
@@ -64,10 +67,7 @@ export default   {
         fadeIn(items[i], i * 1000)
       }
     }
-  } , 
-  created(){
-    this.faded()
-  }
+  } 
   
 }
 </script>

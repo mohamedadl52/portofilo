@@ -38,7 +38,8 @@
        <div><span class="dot"></span></div>
        <div><span class="dot"></span></div>
      </div>
-     <div data-aos="zoom-out-up" style="background-color: rgba(0, 0, 0 ,0.8);"
+     <div
+data-aos="zoom-out-up" style="background-color: rgba(0, 0, 0 ,0.8);"
      class=" pt-10 pb-10 xl:pb-24 overflow-hidden"  >
    <p class="bg-blue-500 text-center mb-10  mt-0  w-32 rounded-r-lg  text-2xl text-white p-2">our skills</p>
   <div  v-for="item in values " :key="item.name">
@@ -67,7 +68,12 @@ import NavBar from '../components/NavBar.vue'
 export default {
   components : {
     NavBar
-  } , 
+  } ,
+    setup(){
+        onMounted(()=>{
+            AOS.init()
+        })
+    }, 
   
     data(){
         return {
@@ -100,12 +106,7 @@ export default {
 
         ]
         }
-    } ,
-    setup(){
-        onMounted(()=>{
-            AOS.init()
-        })
-    }
+    } 
 }
 </script>
 <style scoped>

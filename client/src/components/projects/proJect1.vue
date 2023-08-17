@@ -10,10 +10,10 @@
             
             <div class="btns">
                      <div class="absolute left-2 ">
-                <button @click="prev(imageselect)" class="p-2 bg-red-500 text-white "> prev</button>
+                <button class="p-2 bg-red-500 text-white " @click="prev(imageselect)"> prev</button>
                      </div>
                      <div class="absolute right-2 ">
-                <button  @click="next(imageselect)" class="p-2 bg-red-500 text-white "> next</button>
+                <button  class="p-2 bg-red-500 text-white " @click="next(imageselect)"> next</button>
                      </div>
             </div>
         </div>
@@ -21,7 +21,10 @@
     </template>
     
     <script>
-     export default {
+     export default { 
+        props: {
+            counter: Number
+        },
         data: function () {
             return {
                 counters: this.$props.counter,
@@ -32,6 +35,13 @@
                 imageselect: { id: 0, img: "/src/assets/images/2.png", description: "image one" }
             };
         },
+        created(){
+            setInterval(() => {
+           this.next(this.imageselect)
+            }, 5000);
+
+            
+        } ,
         methods: {
             next(payload) {
                 if (payload.id + 1 > this.imageslider.length - 1) {
@@ -50,16 +60,6 @@
                     this.imageselect = this.imageslider[payload.id - 1];
                 }
             }
-        },
-        created(){
-            setInterval(() => {
-           this.next(this.imageselect)
-            }, 5000);
-
-            
-        } , 
-        props: {
-            counter: Number
         },
     }
     </script>

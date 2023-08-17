@@ -33,7 +33,7 @@
             
               <div class="animation2">
                 
-                <span :key="item" v-for="item in 650">
+                <span v-for="item in 650" :key="item">
                    
                 </span>
   

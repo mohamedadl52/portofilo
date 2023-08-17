@@ -11,7 +11,7 @@
                       </div>
                       
                             <div class="md:hidden">
-                       <font-awesome-icon class="text-white  text-3xlq" @click="togglemenu" :icon="['fas', 'bars']" />
+                       <font-awesome-icon class="text-white  text-3xlq" :icon="['fas', 'bars']" @click="togglemenu" />
                     </div>
                    </div>
                     

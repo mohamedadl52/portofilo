@@ -70,7 +70,8 @@
                                  <span style="color : #354057 ;" class="ml-10 ">Hair, I just meet you</span>
                              </div>
     
-                             <h1 style=" color: #464646;
+                             <h1
+style=" color: #464646;
         font-size: 12px;
         line-height: 24px; font-family :Arial, Helvetica, sans-serif" class=" mt-5">
                                  This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the Forums.   <br> <br>
@@ -86,7 +87,8 @@
                                 <div style="border:5px solid #5fb3bd ;    background: #519194;" class="relative p-5">
                                       <h1 style="color: white ; background : #212741 ; font-family:'Comfortaa', cursive;" class="p-2 font-bold px-6 text-2xl  w-40 left-0 text-center relative bottom-9 ">Hairstyle</h1>
     
-                                       <h1 class="text-white" style=" 
+                                       <h1
+class="text-white" style=" 
         font-size: 12px;
         line-height: 24px;
         font-family:Arial, Helvetica, sans-serif">

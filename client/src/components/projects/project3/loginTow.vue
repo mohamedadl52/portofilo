@@ -19,12 +19,12 @@
               >
                 <div class="relative">
                   <input
+                    v-model="user.username"
                     autocomplete="off"
                     name="email"
                     type="text"
                     class="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
                     placeholder="Email address"
-                    v-model="user.username"
                   />
                   <label
                     for="email"
@@ -34,12 +34,12 @@
                 </div>
                 <div class="relative">
                   <input
+                    v-model="user.password"
                     autocomplete="off"
                     name="password"
                     type="password"
                     class="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
                     placeholder="Password"
-                    v-model="user.password"
                   />
                   <label
                     for="password"
@@ -48,7 +48,7 @@
                   >
                 </div>
                 <div class="relative">
-                  <button @click="handleLogin(user)" class="bg-blue-500 text-white rounded-md px-2 py-1">
+                  <button class="bg-blue-500 text-white rounded-md px-2 py-1" @click="handleLogin(user)">
                     دخول
                   </button>
                 </div>

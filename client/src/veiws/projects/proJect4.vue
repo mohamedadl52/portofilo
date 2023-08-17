@@ -8,7 +8,7 @@
                    <div style="background-color: #a7d7c5;" class=" w-24  p-2 ml-2">
    <img width="300px" src="/src/assets/images/yoga/images/VectorSmart.png"  class="max-w-full w-32" alt="">
   
-<label style="top: 4px; right: 10px;" for="menu-toggle" @click="toglemenu()" class="self-center sm:hidden absolute">
+<label style="top: 4px; right: 10px;" for="menu-toggle" class="self-center sm:hidden absolute" @click="toglemenu()">
     <svg
       class="fill-current text-gray-700  mt-6 mr-"
       xmlns="http://www.w3.org/2000/svg"
@@ -20,11 +20,11 @@
       <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
     </svg>
   </label>
-  <input class="hidden" type="checkbox" id="menu-toggle" />
+  <input id="menu-toggle" class="hidden" type="checkbox" />
   
       </div>
       <div style="z-index : 999"  class="flex-grow mt-0">
-           <div   style="background-color: #e2ede8; color: #494f4e;" id="menu" class="">
+           <div   id="menu" style="background-color: #e2ede8; color: #494f4e;" class="">
    <ul :class="{'hidden' : classhidden}" style="transition : all 1s linear"  class="list-none md:block md:mt-6  text-center ">
        <li class="sm:inline-block mx-4 p-2 md:mx-8 hover:text-white hover:bg-blue-300 transition-all duration-300 cursor-pointer  ">home</li>
        <li class="sm:inline-block mx-4 p-2 md:mx-8 hover:text-white hover:bg-blue-300 transition-all duration-300 cursor-pointer ">about us </li>
@@ -110,7 +110,8 @@
   </header>
 
   
-  <article   style=";background-color: #6c9894;
+  <article
+style=";background-color: #6c9894;
   top: 0; z-index : 998
 " class=" xl:relative relative h-auto xl:h-screen sm:mt-20 xl:mt-0 xl:mb-64">
 <br> 
@@ -254,7 +255,7 @@
    <h1 class="text-2xl mb-5 text-center text-white font-bold">DONT MISS OUR UPDATE</h1>
    <p class="text-xl text-center text-white lg:p-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ullam adipisci, culpa facilis, a accusantium velit necessitatibus, odit consequuntur provident autem architecto asperiores tempora nulla voluptatum molestias sequi nesciunt atque.</p>
 
-    <input type="text" name="" class="w-11/12 lg:w-1/2 m-auto mt-10 ml-2  mt-2 p-2 rounded-lg lg:rounded-l-lg" placeholder="Your mail" id=""><span  style="color: #6c9894;" class="bg-white w-32 m-auto block lg:inline-block mt-5 p-2 text-center rounded-lg cursor-pointer l:rounded-r-lg">subscribe</span>
+    <input id="" type="text" name="" class="w-11/12 lg:w-1/2 m-auto mt-10 ml-2  mt-2 p-2 rounded-lg lg:rounded-l-lg" placeholder="Your mail"><span  style="color: #6c9894;" class="bg-white w-32 m-auto block lg:inline-block mt-5 p-2 text-center rounded-lg cursor-pointer l:rounded-r-lg">subscribe</span>
 
  </article>
 
@@ -302,14 +303,6 @@
 
 </template>
 
-<style scoped>
-  .bggg {
-       background:url('/src/assets/images/yoga/images/place5.png') no-repeat ;
-  background-size:cover ; background-position: center;
-  }
-
-</style>
-
 <script>
 export default {
     
@@ -325,3 +318,11 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+  .bggg {
+       background:url('/src/assets/images/yoga/images/place5.png') no-repeat ;
+  background-size:cover ; background-position: center;
+  }
+
+</style>

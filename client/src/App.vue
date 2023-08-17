@@ -22,21 +22,6 @@ export default {
     prevHeight  :   0,
     transitionName :DEFAULT_TRANSITION
   }
-  } , 
-  methods : {
-    beforleave(element){
-          this.prevHeight = getComputedStyle(element).height
-    },
-    enter(element){
-          const {height} = getComputedStyle(element)
-          element.style.height  =  this.prevHeight
-          setTimeout(() => {
-             element.style.height  = height 
-          });
-    } , 
-    afterEnter (element){
-    element.style.height  =   'auto'
-    }
   } ,
   created(){
     this.$router.beforeEach((to, from ,next)=>{
@@ -51,7 +36,22 @@ export default {
       next()
 
     })
-  }
+  }, 
+  methods : {
+    beforleave(element){
+          this.prevHeight = getComputedStyle(element).height
+    },
+    enter(element){
+          const {height} = getComputedStyle(element)
+          element.style.height  =  this.prevHeight
+          setTimeout(() => {
+             element.style.height  = height 
+          });
+    } , 
+    afterEnter (element){
+    element.style.height  =   'auto'
+    }
+  } 
 }
 </script>
 <style scoped>

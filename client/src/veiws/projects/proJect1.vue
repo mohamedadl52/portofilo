@@ -46,15 +46,15 @@
  <script>
  
  import testPage from '@/components/projects/proJect1.vue';
- export default {
+ export default { 
+      components:{
+         testPage
+      } ,
      data :  function(){
          return {
              count : 1
          } 
      }, 
-      components:{
-         testPage
-      } , 
       methods :{
          testChange(value){
          this.count =  value

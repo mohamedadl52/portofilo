@@ -25,11 +25,11 @@ import cardOne from "@/components/projects/project2/cardOne.vue";
 import cardTow from "@/components/projects/project2/cardTow.vue";
 import CardThree from '../../components/projects/project2/cardThree.vue';
 export default {
-  setup() {},
   components: {
     cardOne, 
     cardTow ,
     CardThree
   },
+  setup() {},
 };
 </script>

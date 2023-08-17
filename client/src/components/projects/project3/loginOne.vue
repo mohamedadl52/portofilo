@@ -2,7 +2,8 @@
     <div class=" bg-seconcolor p-10">
 
 <div class="container bg-seconcolor py-20 relative mx-auto gap-5 flex justify-around items-center">
-<div style="box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1) , -15px -15px 35px #0d122c ;
+<div
+style="box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1) , -15px -15px 35px #0d122c ;
 border-radius:10px ;
 " class="box">
 <i></i>  
@@ -24,7 +25,7 @@ border-radius:10px ;
      />
 </div>
 <div>
-  <input type="checkbox" name="" style="width :20px" id="">
+  <input id="" type="checkbox" name="" style="width :20px">
   <span>keep me login in</span>
 </div>
 <div>
