@@ -57,7 +57,6 @@ import chatApp from "../assets/images/works/chatApp.png";
 import cards from "../assets/images/works/cards.jpg";
 import login from "../assets/images/works/login.png";
 import mbizone from "../assets/images/works/mbizone.png";
-import animations from "../assets/images/works/animations.jpg";
 import yogaa from "../assets/images/works/yogaa.jpg";
 import clanasowa from "../assets/images/works/clanasowa.jpg";
 // import stylehair from "/src/assets/images/works/stylehair.jpg";
@@ -93,12 +92,7 @@ let projects2 = ref([
   //   img: stylehair,
   //   type: "fdp",
   // },
-  {
-    name: "background Animations",
-    link: "project6",
-    img: animations,
-    type: "cd",
-  },
+
   {
     name: "template MotiveZone Desgin",
     link: "project7",
@@ -131,12 +125,7 @@ let projects = ref([
   //   img: stylehair,
   //   type: "fdp",
   // },
-  {
-    name: "background Animations",
-    link: "project6",
-    img: animations,
-    type: "cd",
-  },
+
   {
     name: "template MotiveZone Desgin",
     link: "project7",
