@@ -93,12 +93,12 @@ let projects2 = ref([
   //   img: stylehair,
   //   type: "fdp",
   // },
-  // {
-  //   name: "background Animations",
-  //   link: "project6",
-  //   img: animations,
-  //   type: "cd",
-  // },
+  {
+    name: "background Animations",
+    link: "project6",
+    img: animations,
+    type: "cd",
+  },
   {
     name: "template MotiveZone Desgin",
     link: "project7",
@@ -131,12 +131,12 @@ let projects = ref([
   //   img: stylehair,
   //   type: "fdp",
   // },
-  // {
-  //   name: "background Animations",
-  //   link: "project6",
-  //   img: animations,
-  //   type: "cd",
-  // },
+  {
+    name: "background Animations",
+    link: "project6",
+    img: animations,
+    type: "cd",
+  },
   {
     name: "template MotiveZone Desgin",
     link: "project7",
