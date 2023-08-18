@@ -59,7 +59,7 @@ import login from "../assets/images/works/login.png";
 import mbizone from "../assets/images/works/mbizone.png";
 import yogaa from "../assets/images/works/yoga.jpg";
 import clanasowa from "../assets/images/works/clanasow.jpg";
-import protfolo from "../assets/images/works/protfolo.jpg";
+import protfolo from "../assets/images/works/protfolo.png";
 // import stylehair from "/src/assets/images/works/stylehair.jpg";
 
 const works = ref([
