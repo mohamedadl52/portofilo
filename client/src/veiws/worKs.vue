@@ -54,12 +54,12 @@ import proJect from "../components/proJect.vue";
 import NavBar from "../components/NavBar.vue";
 import chatApp from "/src/assets/images/works/chatApp.png";
 // import carousel from "/src/assets/images/works/carousel.png";
-import clanasowa from "/src/assets/images/works/clanasowa.jpg";
+import clanasowa from "/src/assets/images/works/clanasowa.JPG";
 import cards from "/src/assets/images/works/cards.jpg";
-import yogaa from "/src/assets/images/works/yogaa.jpg";
+import yogaa from "/src/assets/images/works/yogaa.JPG";
 import login from "/src/assets/images/works/login.png";
 import mbizone from "/src/assets/images/works/mbizone.png";
-import animations from "/src/assets/images/works/animations.jpg";
+import animations from "/src/assets/images/works/animations.JPG";
 // import stylehair from "/src/assets/images/works/stylehair.jpg";
 
 const works = ref([
