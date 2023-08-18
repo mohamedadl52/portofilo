@@ -59,6 +59,7 @@ import login from "../assets/images/works/login.png";
 import mbizone from "../assets/images/works/mbizone.png";
 import yogaa from "../assets/images/works/yoga.jpg";
 import clanasowa from "../assets/images/works/clanasow.jpg";
+import protfolo from "../assets/images/works/protfolo.jpg";
 // import stylehair from "/src/assets/images/works/stylehair.jpg";
 
 const works = ref([
@@ -82,7 +83,8 @@ let projects2 = ref([
     img: clanasowa,
     type: "fsp",
   },
-  { name: "portfilo desgin", link: "project2", img: clanasowa, type: "fdp" },
+  { name: "portfilo desgin", 
+    href: "https://mohamedadel52.onrender.com/", img: protfolo, type: "fdp" },
   // { name: "Carsoul Desgins", link: "project1", img: carousel, type: "cd" },
   { name: "card Desgins", link: "project2", img: cards, type: "cd" },
   { name: "yoga desgin template", link: "project4", img: yogaa, type: "fdp" },
@@ -112,10 +114,11 @@ let projects = ref([
   {
     name: "blog website",
     href: "https://chatapp-1hom.onrender.com/",
-    img: clanasowa,
+    img: protfolo,
     type: "fsp",
   },
-  { name: "portfilo desgin", link: "project2", img: clanasowa, type: "fdp" },
+  { name: "portfilo desgin", href: "https://chatapp-1hom.onrender.com/",
+    img: protfolo, type: "fdp" },
   // { name: "Carsoul Desgins", link: "project1", img: carousel, type: "cd" },
   { name: "card Desgins", link: "project2", img: cards, type: "cd" },
   { name: "yoga degin template", link: "project4", img: yogaa, type: "fdp" },
