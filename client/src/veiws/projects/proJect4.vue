@@ -38,8 +38,8 @@
 
            <div style="z-index : 999"  class=" flex flex-col md:flex-row md:justify-start xl:mb-20  relative">
   
-    <div class=" md:w-1/2 lg:w-1/3 lg:ml-20 xl:mt-20 ">
-      <img width="230px" class=" rounded-full mt-16 ml-16 md:ml-20 md:mt-20  absolute z-30" src="/src/assets/images/yoga/images/Place.png" alt="notfound">
+    <div class=" md:w-1/2 lg:w-1/3 mb-10 flex items-center justify-center lg:ml-20 mt-64 sm:mt-20 lg:mt-20 ">
+      <img width="250px" class=" rounded-full  absolute z-30" src="/src/assets/images/yoga/images/Place.png" alt="notfound">
       <img width="400px"  class=" rounded-full  absolute z-20 " src="/src/assets/images/yoga/images/temp.png" alt="notfound">
   </div>
 
@@ -139,14 +139,14 @@ style=";background-color: #6c9894;
               <img class="w-48 sm:w-32 lg:w-2/12 rounded-full absolute z-30" src="/src/assets/images/yoga/images/place3.png" alt="">
               <img class="w-full sm:w-56 lg:w-1/4 rounded-full absolute  z-10" src="/src/assets/images/yoga/images/temp.png" alt="">
                       </div>
-                      <div class="flex justify-center text-white flex-col items-center mt-48 sm:mt-32 xl:mt-32 xl:pt-6">
+                      <div class="flex justify-center text-white flex-col items-center mt-48 sm:mt-36 xl:mt-32 xl:pt-6">
                         <p class="text-2xl font-bold">advanced class</p>
                         <p class="text-lg p-2 ">Lorem ipsum dolor sit    elit.  atque facilis! Reprehenderit iste totam ab minus reiciendis rerum.</p>
                       </div>
           </div>
 
                       
-                    <div class="flex flex-col w-full sm:w-1/3 h-64 mt-48 mb-64 sm:mt-32 xl:mt-20 ">
+                    <div class="flex flex-col w-full sm:w-1/3 h-64 mt-48 mb-64 sm:mt-36 xl:mt-20 ">
                       <div  class=" flex justify-center items-center">
                         <img class="w-48 sm:w-32 lg:w-2/12 rounded-full absolute z-30" src="/src/assets/images/yoga/images/place4.png" alt="">
                         <img class="w-full sm:w-56 lg:w-1/4 rounded-full absolute  z-10" src="/src/assets/images/yoga/images/temp.png" alt="">
@@ -154,7 +154,7 @@ style=";background-color: #6c9894;
           
                                 </div>
 
-                                <div class="flex justify-center text-white flex-col items-center mt-48 sm:mt-32 xl:pt-6">
+                                <div class="flex justify-center  text-white flex-col items-center mt-48 sm:mt-36 xl:pt-6">
                                   <p class="text-2xl font-bold">EXperted class</p>
                                   <p class="text-lg p-2">Lorem   sit amet cis    atque facilis! Reprehenderit iste totam ab minus reiciendis rerum.</p>
                                 </div>

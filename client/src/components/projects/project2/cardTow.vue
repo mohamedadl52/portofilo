@@ -1,6 +1,6 @@
 <template>
    
-    <div  class="mt-10 bg-seconcolor p-10">
+    <div  class=" bg-white p-10">
     
           <div class="container relative mx-auto gap-5 flex flex-wrap justify-around items-center">
     <div style="--i:0" class="box">
@@ -11,7 +11,7 @@
         <p>awasome ui/ux desgin </p>
         <a href="/">hair me</a>
     </div></div>
-    <div style="--i:1" class="box">
+    <!-- <div style="--i:1" class="box">
         <i></i>  
     <div class="content">
         <img src="/src/assets/images/bg.jpg" alt="">
@@ -27,7 +27,7 @@
         <p>awasome ui/ux desgin </p>
         <a href="/">hair me</a>
     </div>
-    </div >
+    </div > -->
           </div>
     </div>
     </template> 
