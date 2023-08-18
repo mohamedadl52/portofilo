@@ -57,8 +57,8 @@ import chatApp from "../assets/images/works/chatApp.png";
 import cards from "../assets/images/works/cards.jpg";
 import login from "../assets/images/works/login.png";
 import mbizone from "../assets/images/works/mbizone.png";
-import yogaa from "../assets/images/works/yogaa.jpg";
-import clanasowa from "../assets/images/works/clanasowa.jpg";
+// import yogaa from "../assets/images/works/yogaa.jpg";
+// import clanasowa from "../assets/images/works/clanasowa.jpg";
 // import stylehair from "/src/assets/images/works/stylehair.jpg";
 
 const works = ref([
@@ -76,16 +76,16 @@ let projects2 = ref([
     img: chatApp,
     type: "fsp",
   },
-  {
-    name: "blog website",
-    href: "https://chatapp-1hom.onrender.com/",
-    img: clanasowa,
-    type: "fsp",
-  },
-  { name: "portfilo desgin", link: "project2", img: clanasowa, type: "fdp" },
+  // {
+  //   name: "blog website",
+  //   href: "https://chatapp-1hom.onrender.com/",
+  //   img: clanasowa,
+  //   type: "fsp",
+  // },
+  // { name: "portfilo desgin", link: "project2", img: clanasowa, type: "fdp" },
   // { name: "Carsoul Desgins", link: "project1", img: carousel, type: "cd" },
   { name: "card Desgins", link: "project2", img: cards, type: "cd" },
-  { name: "yoga degin template", link: "project4", img: yogaa, type: "fdp" },
+  // { name: "yoga degin template", link: "project4", img: yogaa, type: "fdp" },
   // {
   //   name: "hair style temlate (just for pc)",
   //   link: "project5",
@@ -109,16 +109,16 @@ let projects = ref([
     img: chatApp,
     type: "fsp",
   },
-  {
-    name: "blog website",
-    href: "https://chatapp-1hom.onrender.com/",
-    img: clanasowa,
-    type: "fsp",
-  },
-  { name: "portfilo desgin", link: "project2", img: clanasowa, type: "fdp" },
+  // {
+  //   name: "blog website",
+  //   href: "https://chatapp-1hom.onrender.com/",
+  //   img: clanasowa,
+  //   type: "fsp",
+  // },
+  // { name: "portfilo desgin", link: "project2", img: clanasowa, type: "fdp" },
   // { name: "Carsoul Desgins", link: "project1", img: carousel, type: "cd" },
   { name: "card Desgins", link: "project2", img: cards, type: "cd" },
-  { name: "yoga degin template", link: "project4", img: yogaa, type: "fdp" },
+  // { name: "yoga degin template", link: "project4", img: yogaa, type: "fdp" },
   // {
   //   name: "hair style temlate (just for pc)",
   //   link: "project5",
