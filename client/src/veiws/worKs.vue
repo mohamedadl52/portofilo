@@ -52,14 +52,14 @@
 import { ref } from "vue";
 import proJect from "../components/proJect.vue";
 import NavBar from "../components/NavBar.vue";
-import chatApp from "../assets/images/works/chatApp.png";
+import chatApp from "@/assets/images/works/chatApp.png";
 // import carousel from "/src/assets/images/works/carousel.png";
-import cards from "../assets/images/works/cards.jpg";
-import login from "../assets/images/works/login.png";
-import mbizone from "../assets/images/works/mbizone.png";
-import animations from "../assets/images/works/animations.jpg";
-import yogaa from "../assets/images/works/yogaa.jpg";
-import clanasowa from "../assets/images/works/clanasowa.jpg";
+import cards from "@/assets/images/works/cards.jpg";
+import login from "@/assets/images/works/login.png";
+import mbizone from "@/assets/images/works/mbizone.png";
+import animations from "@/assets/images/works/animations.jpg";
+import yogaa from "@/assets/images/works/yogaa.jpg";
+import clanasowa from "@/assets/images/works/clanasowa.jpg";
 // import stylehair from "/src/assets/images/works/stylehair.jpg";
 
 const works = ref([
